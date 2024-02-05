@@ -5,10 +5,10 @@
 package dm
 
 import (
+	"codeup.aliyun.com/6308f33e9011ed4f984a7e9d/dm-driver-go/i18n"
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/i18n"
 	"net"
 	"sync"
 )
@@ -38,7 +38,7 @@ func driverInit(svcConfPath string) {
 
 type DmDriver struct {
 	filterable
-	mu           sync.Mutex
+	mu sync.Mutex
 	//readPropMutex sync.Mutex
 }
 

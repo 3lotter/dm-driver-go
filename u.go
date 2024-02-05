@@ -5,11 +5,11 @@
 package dm
 
 import (
+	"codeup.aliyun.com/6308f33e9011ed4f984a7e9d/dm-driver-go/util"
 	"container/list"
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/util"
 	"fmt"
 	"io"
 	"math/big"

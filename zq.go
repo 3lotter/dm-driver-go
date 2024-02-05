@@ -5,7 +5,7 @@
 package dm
 
 import (
-	"dm/util"
+	"codeup.aliyun.com/6308f33e9011ed4f984a7e9d/dm-driver-go/util"
 	"fmt"
 	"math"
 	"os"
@@ -132,7 +132,7 @@ const (
 
 	Dm_build_331 int32 = 0xFFFE - 3
 
-	Dm_build_332 int32 = 0XFFFE - 4
+	Dm_build_332 int32 = 0xFFFE - 4
 
 	Dm_build_333 int32 = 0xFFFE
 
