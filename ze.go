@@ -6,10 +6,10 @@
 package dm
 
 import (
-	"codeup.aliyun.com/6308f33e9011ed4f984a7e9d/dm-driver-go/util"
 	"context"
 	"database/sql/driver"
 	"fmt"
+	"github.com/3lotter/dm-driver-go/util"
 	"io"
 	"reflect"
 	"strconv"

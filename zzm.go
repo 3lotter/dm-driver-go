@@ -7,7 +7,7 @@ package dm
 
 import (
 	"bufio"
-	"codeup.aliyun.com/6308f33e9011ed4f984a7e9d/dm-driver-go/util"
+	"github.com/3lotter/dm-driver-go/util"
 	"io"
 	"os"
 	"runtime"

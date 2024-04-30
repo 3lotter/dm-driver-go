@@ -6,8 +6,8 @@
 package dm
 
 import (
-	"codeup.aliyun.com/6308f33e9011ed4f984a7e9d/dm-driver-go/util"
 	"fmt"
+	"github.com/3lotter/dm-driver-go/util"
 	"math"
 	"strconv"
 	"strings"
